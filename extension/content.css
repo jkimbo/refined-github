@@ -539,7 +539,7 @@ td.blob-code.blob-code-deletion:before {
 	top: 1px;
 	font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
 	font-size: 11px;
-	text-indent: -8px;
+	text-indent: -15px;
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -549,6 +549,11 @@ td.blob-code.blob-code-addition:before {
 
 td.blob-code.blob-code-deletion:before {
 	content: '-';
+}
+
+td.blob-code.blob-code-addition,
+td.blob-code.blob-code-deletion {
+	padding-left: 17px;
 }
 
 /* remove "pro tip!" box on profile page (appears when name isn't set) */
